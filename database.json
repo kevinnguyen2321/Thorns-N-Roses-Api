@@ -1,0 +1,254 @@
+{
+  "flowers": [
+    {
+      "id": 1,
+      "color": "Red",
+      "species": "Rose"
+    },
+    {
+      "id": 3,
+      "color": "Purple",
+      "species": "Hydrangea"
+    },
+    {
+      "id": 4,
+      "color": "White",
+      "species": "Baby's Breath"
+    },
+    {
+      "id": 5,
+      "color": "Peach",
+      "species": "Tulip"
+    }
+  ],
+  "nurseries": [
+    {
+      "id": 1,
+      "name": "Green Leaf Nursery"
+    },
+    {
+      "id": 2,
+      "name": "Sunny Meadows Nursery"
+    },
+    {
+      "id": 3,
+      "name": "Blooming Garden Nursery"
+    },
+    {
+      "id": 4,
+      "name": "Floral Wonders Nursery"
+    },
+    {
+      "id": 5,
+      "name": "Orchid Haven Nursery"
+    },
+    {
+      "id": 6,
+      "name": "Evergreen Nursery"
+    },
+    {
+      "id": 7,
+      "name": "Golden Petals Nursery"
+    },
+    {
+      "id": 8,
+      "name": "Blue Sky Nursery"
+    },
+    {
+      "id": 9,
+      "name": "Spring Blossom Nursery"
+    },
+    {
+      "id": 10,
+      "name": "Nature's Gift Nursery"
+    }
+  ],
+  "distributors": [
+    {
+      "id": 1,
+      "business name": "Floral Distribution Co.",
+      "markup percentage": 15
+    },
+    {
+      "id": 2,
+      "business name": "Petal Partners Distributors",
+      "markup percentage": 12
+    },
+    {
+      "id": 3,
+      "business name": "Bloom Logistics",
+      "markup percentage": 18
+    },
+    {
+      "id": 4,
+      "business name": "Green World Distributors",
+      "markup percentage": 10
+    },
+    {
+      "id": 5,
+      "business name": "Sunshine Floral Supply",
+      "markup percentage": 20
+    },
+    {
+      "id": 6,
+      "business name": "EcoFlor Distributors",
+      "markup percentage": 17
+    },
+    {
+      "id": 7,
+      "business name": "Flower Power Logistics",
+      "markup percentage": 13
+    },
+    {
+      "id": 8,
+      "business name": "Fresh Petals Distribution",
+      "markup percentage": 16
+    },
+    {
+      "id": 9,
+      "business name": "Petal Express",
+      "markup percentage": 14
+    },
+    {
+      "id": 10,
+      "business name": "Blossom Freight Services",
+      "markup percentage": 19
+    }
+  ],
+  "retailers": [
+    {
+      "id": 1,
+      "business name": "Rose's Floral Shop",
+      "address": "123 Bloom St, Flower City"
+    },
+    {
+      "id": 2,
+      "business name": "Sunshine Bouquets",
+      "address": "456 Sunflower Ave, Greenfield"
+    },
+    {
+      "id": 3,
+      "business name": "Lavender Dreams Florist",
+      "address": "789 Purple Ln, Lavendertown"
+    },
+    {
+      "id": 4,
+      "business name": "Cherry Blossom Florals",
+      "address": "321 Sakura St, Blossomville"
+    },
+    {
+      "id": 5,
+      "business name": "Lily's Flower Shop",
+      "address": "654 White Petal Dr, Lilypad"
+    },
+    {
+      "id": 6,
+      "business name": "Petal Palace",
+      "address": "987 Daisy Rd, Garden City"
+    },
+    {
+      "id": 7,
+      "business name": "Orchid Oasis",
+      "address": "159 Orchid Way, Floral Hills"
+    },
+    {
+      "id": 8,
+      "business name": "Peony Place",
+      "address": "753 Pink Blossom Blvd, Peonytown"
+    },
+    {
+      "id": 9,
+      "business name": "Sunflower Station",
+      "address": "258 Yellow Petal Cir, Sunfield"
+    },
+    {
+      "id": 10,
+      "business name": "The Blossom Boutique",
+      "address": "369 Petunia Ct, Bloomville"
+    }
+  ],
+  "ndJoin": [
+    {
+      "id": 1,
+      "nurseriesId": 7,
+      "distributorsId": 3
+    },
+    {
+      "id": 2,
+      "nurseriesId": 2,
+      "distributorsId": 8
+    },
+    {
+      "id": 3,
+      "nurseriesId": 5,
+      "distributorsId": 1
+    },
+    {
+      "id": 4,
+      "nurseriesId": 9,
+      "distributorsId": 6
+    },
+    {
+      "id": 5,
+      "nurseriesId": 1,
+      "distributorsId": 10
+    },
+    {
+      "id": 6,
+      "nurseriesId": 6,
+      "distributorsId": 4
+    },
+    {
+      "id": 7,
+      "nurseriesId": 10,
+      "distributorsId": 7
+    },
+    {
+      "id": 8,
+      "nurseriesId": 3,
+      "distributorsId": 9
+    },
+    {
+      "id": 9,
+      "nurseriesId": 4,
+      "distributorsId": 2
+    },
+    {
+      "id": 10,
+      "nurseriesId": 8,
+      "distributorsId": 5
+    }
+  ],
+  "flowersJoin": [
+    {
+      "id": 1,
+      "flowersId": 1,
+      "nurseriesId": 3,
+      "price": 10.99
+    },
+    {
+      "id": 2,
+      "flowersId": 2,
+      "nurseriesId": 5,
+      "price": 12.5
+    },
+    {
+      "id": 3,
+      "flowersId": 3,
+      "nurseriesId": 7,
+      "price": 15.75
+    },
+    {
+      "id": 4,
+      "flowersId": 4,
+      "nurseriesId": 9,
+      "price": 8.99
+    },
+    {
+      "id": 5,
+      "flowersId": 5,
+      "nurseriesId": 2,
+      "price": 20.0
+    }
+  ]
+}
