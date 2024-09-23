@@ -6,19 +6,45 @@
       "species": "Rose"
     },
     {
-      "id": 3,
+      "id": 2,
       "color": "Purple",
       "species": "Hydrangea"
     },
     {
-      "id": 4,
+      "id": 3,
       "color": "White",
       "species": "Baby's Breath"
     },
     {
-      "id": 5,
+      "id": 4,
       "color": "Peach",
       "species": "Tulip"
+    }
+  ],
+  "flowersJoin": [
+    {
+      "id": 1,
+      "flowerId": 1,
+      "nurseryId": 3,
+      "price": 10.99
+    },
+    {
+      "id": 2,
+      "flowerId": 2,
+      "nurseryId": 5,
+      "price": 12.5
+    },
+    {
+      "id": 3,
+      "flowerId": 3,
+      "nurseryId": 7,
+      "price": 15.75
+    },
+    {
+      "id": 4,
+      "flowerId": 4,
+      "nurseryId": 9,
+      "price": 8.99
     }
   ],
   "nurseries": [
@@ -63,192 +89,180 @@
       "name": "Nature's Gift Nursery"
     }
   ],
-  "distributors": [
+  "ndJoin": [
     {
       "id": 1,
-      "business name": "Floral Distribution Co.",
-      "markup percentage": 15
+      "nurseryId": 7,
+      "distributorId": 3
     },
     {
       "id": 2,
-      "business name": "Petal Partners Distributors",
-      "markup percentage": 12
+      "nurseryId": 2,
+      "distributorId": 8
     },
     {
       "id": 3,
-      "business name": "Bloom Logistics",
-      "markup percentage": 18
+      "nurseryId": 5,
+      "distributorId": 1
     },
     {
       "id": 4,
-      "business name": "Green World Distributors",
-      "markup percentage": 10
+      "nurseryId": 9,
+      "distributorId": 6
     },
     {
       "id": 5,
-      "business name": "Sunshine Floral Supply",
-      "markup percentage": 20
+      "nurseryId": 1,
+      "distributorId": 10
     },
     {
       "id": 6,
-      "business name": "EcoFlor Distributors",
-      "markup percentage": 17
+      "nurseryId": 6,
+      "distributorId": 4
     },
     {
       "id": 7,
-      "business name": "Flower Power Logistics",
-      "markup percentage": 13
+      "nurseryId": 10,
+      "distributorId": 7
     },
     {
       "id": 8,
-      "business name": "Fresh Petals Distribution",
-      "markup percentage": 16
+      "nurseryId": 3,
+      "distributorId": 9
     },
     {
       "id": 9,
-      "business name": "Petal Express",
-      "markup percentage": 14
+      "nurseryId": 4,
+      "distributorId": 2
     },
     {
       "id": 10,
-      "business name": "Blossom Freight Services",
-      "markup percentage": 19
+      "nurseryId": 8,
+      "distributorId": 5
+    }
+  ],
+  "distributors": [
+    {
+      "id": 1,
+      "businessName": "Floral Distribution Co.",
+      "markUpPercentage": 15
+    },
+    {
+      "id": 2,
+      "businessName": "Petal Partners Distributors",
+      "markUpPercentage": 12
+    },
+    {
+      "id": 3,
+      "businessName": "Bloom Logistics",
+      "markUpPercentage": 18
+    },
+    {
+      "id": 4,
+      "businessName": "Green World Distributors",
+      "markUpPercentage": 10
+    },
+    {
+      "id": 5,
+      "businessName": "Sunshine Floral Supply",
+      "markUpPercentage": 20
+    },
+    {
+      "id": 6,
+      "businessName": "EcoFlor Distributors",
+      "markUpPercentage": 17
+    },
+    {
+      "id": 7,
+      "businessName": "Flower Power Logistics",
+      "markUpPercentage": 13
+    },
+    {
+      "id": 8,
+      "businessName": "Fresh Petals Distribution",
+      "markUpPercentage": 16
+    },
+    {
+      "id": 9,
+      "businessName": "Petal Express",
+      "markUpPercentage": 14
+    },
+    {
+      "id": 10,
+      "businessName": "Blossom Freight Services",
+      "markUpPercentage": 19
     }
   ],
   "retailers": [
     {
       "id": 1,
-      "business name": "Rose's Floral Shop",
-      "address": "123 Bloom St, Flower City"
+      "businessName": "Rose's Floral Shop",
+      "address": "123 Bloom St, Flower City",
+      "markupPercentage": 20,
+      "distributorId": 3
     },
     {
       "id": 2,
-      "business name": "Sunshine Bouquets",
-      "address": "456 Sunflower Ave, Greenfield"
+      "businessName": "Sunshine Bouquets",
+      "address": "456 Sunflower Ave, Greenfield",
+      "markupPercentage": 25,
+      "distributorId": 1
     },
     {
       "id": 3,
-      "business name": "Lavender Dreams Florist",
-      "address": "789 Purple Ln, Lavendertown"
+      "businessName": "Lavender Dreams Florist",
+      "address": "789 Purple Ln, Lavendertown",
+      "markupPercentage": 18,
+      "distributorId": 7
     },
     {
       "id": 4,
-      "business name": "Cherry Blossom Florals",
-      "address": "321 Sakura St, Blossomville"
+      "businessName": "Cherry Blossom Florals",
+      "address": "321 Sakura St, Blossomville",
+      "markupPercentage": 22,
+      "distributorId": 5
     },
     {
       "id": 5,
-      "business name": "Lily's Flower Shop",
-      "address": "654 White Petal Dr, Lilypad"
+      "businessName": "Lily's Flower Shop",
+      "address": "654 White Petal Dr, Lilypad",
+      "markupPercentage": 30,
+      "distributorId": 9
     },
     {
       "id": 6,
-      "business name": "Petal Palace",
-      "address": "987 Daisy Rd, Garden City"
+      "businessName": "Petal Palace",
+      "address": "987 Daisy Rd, Garden City",
+      "markupPercentage": 15,
+      "distributorId": 2
     },
     {
       "id": 7,
-      "business name": "Orchid Oasis",
-      "address": "159 Orchid Way, Floral Hills"
+      "businessName": "Orchid Oasis",
+      "address": "159 Orchid Way, Floral Hills",
+      "markupPercentage": 27,
+      "distributorId": 4
     },
     {
       "id": 8,
-      "business name": "Peony Place",
-      "address": "753 Pink Blossom Blvd, Peonytown"
+      "businessName": "Peony Place",
+      "address": "753 Pink Blossom Blvd, Peonytown",
+      "markupPercentage": 19,
+      "distributorId": 8
     },
     {
       "id": 9,
-      "business name": "Sunflower Station",
-      "address": "258 Yellow Petal Cir, Sunfield"
+      "businessName": "Sunflower Station",
+      "address": "258 Yellow Petal Cir, Sunfield",
+      "markupPercentage": 24,
+      "distributorId": 10
     },
     {
       "id": 10,
-      "business name": "The Blossom Boutique",
-      "address": "369 Petunia Ct, Bloomville"
-    }
-  ],
-  "ndJoin": [
-    {
-      "id": 1,
-      "nurseriesId": 7,
-      "distributorsId": 3
-    },
-    {
-      "id": 2,
-      "nurseriesId": 2,
-      "distributorsId": 8
-    },
-    {
-      "id": 3,
-      "nurseriesId": 5,
-      "distributorsId": 1
-    },
-    {
-      "id": 4,
-      "nurseriesId": 9,
-      "distributorsId": 6
-    },
-    {
-      "id": 5,
-      "nurseriesId": 1,
-      "distributorsId": 10
-    },
-    {
-      "id": 6,
-      "nurseriesId": 6,
-      "distributorsId": 4
-    },
-    {
-      "id": 7,
-      "nurseriesId": 10,
-      "distributorsId": 7
-    },
-    {
-      "id": 8,
-      "nurseriesId": 3,
-      "distributorsId": 9
-    },
-    {
-      "id": 9,
-      "nurseriesId": 4,
-      "distributorsId": 2
-    },
-    {
-      "id": 10,
-      "nurseriesId": 8,
-      "distributorsId": 5
-    }
-  ],
-  "flowersJoin": [
-    {
-      "id": 1,
-      "flowersId": 1,
-      "nurseriesId": 3,
-      "price": 10.99
-    },
-    {
-      "id": 2,
-      "flowersId": 2,
-      "nurseriesId": 5,
-      "price": 12.5
-    },
-    {
-      "id": 3,
-      "flowersId": 3,
-      "nurseriesId": 7,
-      "price": 15.75
-    },
-    {
-      "id": 4,
-      "flowersId": 4,
-      "nurseriesId": 9,
-      "price": 8.99
-    },
-    {
-      "id": 5,
-      "flowersId": 5,
-      "nurseriesId": 2,
-      "price": 20.0
+      "businessName": "The Blossom Boutique",
+      "address": "369 Petunia Ct, Bloomville",
+      "markupPercentage": 16,
+      "distributorId": 6
     }
   ]
 }
