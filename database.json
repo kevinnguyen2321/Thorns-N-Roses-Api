@@ -19,6 +19,61 @@
       "id": 4,
       "color": "Peach",
       "species": "Tulip"
+    },
+    {
+      "id": 5,
+      "color": "Yellow",
+      "species": "Sunflower"
+    },
+    {
+      "id": 6,
+      "color": "Pink",
+      "species": "Carnation"
+    },
+    {
+      "id": 7,
+      "color": "Orange",
+      "species": "Lily"
+    },
+    {
+      "id": 8,
+      "color": "Blue",
+      "species": "Bluebell"
+    },
+    {
+      "id": 9,
+      "color": "Violet",
+      "species": "Lavender"
+    },
+    {
+      "id": 10,
+      "color": "Green",
+      "species": "Chrysanthemum"
+    },
+    {
+      "id": 11,
+      "color": "Pink",
+      "species": "Peony"
+    },
+    {
+      "id": 12,
+      "color": "White",
+      "species": "Orchid"
+    },
+    {
+      "id": 13,
+      "color": "Red",
+      "species": "Poppy"
+    },
+    {
+      "id": 14,
+      "color": "Yellow",
+      "species": "Daffodil"
+    },
+    {
+      "id": 15,
+      "color": "Purple",
+      "species": "Iris"
     }
   ],
   "flowersJoin": [
@@ -45,6 +100,72 @@
       "flowerId": 4,
       "nurseId": 9,
       "price": 8.99
+    },
+    {
+      "id": 5,
+      "flowerId": 5,
+      "nurseId": 1,
+      "price": 9.99
+    },
+    {
+      "id": 6,
+      "flowerId": 6,
+      "nurseId": 1,
+      "price": 11.25
+    },
+    {
+      "id": 7,
+      "flowerId": 7,
+      "nurseId": 2,
+      "price": 13.5
+    },
+    {
+      "id": 8,
+      "flowerId": 8,
+      "nurseId": 3,
+      "price": 14.75
+    },
+    {
+      "id": 9,
+      "flowerId": 9,
+      "nurseId": 4,
+      "price": 16.0
+    },
+    {
+      "id": 10,
+      "flowerId": 10,
+      "nurseId": 5,
+      "price": 7.5
+    },
+    {
+      "id": 11,
+      "flowerId": 11,
+      "nurseId": 6,
+      "price": 10.0
+    },
+    {
+      "id": 12,
+      "flowerId": 12,
+      "nurseId": 7,
+      "price": 12.99
+    },
+    {
+      "id": 13,
+      "flowerId": 13,
+      "nurseId": 8,
+      "price": 14.25
+    },
+    {
+      "id": 14,
+      "flowerId": 14,
+      "nurseId": 9,
+      "price": 15.5
+    },
+    {
+      "id": 15,
+      "flowerId": 15,
+      "nurseId": 10,
+      "price": 9.25
     }
   ],
   "nurses": [
