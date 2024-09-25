@@ -385,5 +385,109 @@
       "markupPercentage": 16,
       "distributorId": 6
     }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Gordian Knot",
+      "businessName":"The Knot",
+      "email": "GKnot@theknot.com",
+      "password": "password"
+    },
+    {
+      "id": 2,
+      "name": "Amelia Evermore",
+      "businessName": "Evermore Weddings",
+      "email": "amelia@evermoreweddings.com",
+      "password": "evermore123"
+    },
+    {
+      "id": 3,
+      "name": "Oliver Ceremony",
+      "businessName": "Ceremony Creations",
+      "email": "oliver@ceremonycreations.com",
+      "password": "ceremony2023"
+    },
+    {
+      "id": 4,
+      "name": "Jasmine Vows",
+      "businessName": "Vows & Blossoms",
+      "email": "jasmine@vowsandblossoms.com",
+      "password": "vows2024"
+    },
+    {
+      "id": 5,
+      "name": "Lily Union",
+      "businessName": "Union of Hearts",
+      "email": "lily@unionofhearts.com",
+      "password": "union123"
+    },
+    {
+      "id": 6,
+      "name": "Daisy Promise",
+      "businessName": "Promise Planners",
+      "email": "daisy@promiseplanners.com",
+      "password": "promise2024"
+    },
+    {
+      "id": 7,
+      "name": "Rose Matrimony",
+      "businessName": "Matrimony Magic",
+      "email": "rose@matrimonymagic.com",
+      "password": "matrimonyrose"
+    },
+    {
+      "id": 8,
+      "name": "Violet Bliss",
+      "businessName": "Blissful Beginnings",
+      "email": "violet@blissfulbeginnings.com",
+      "password": "blissful2024"
+    },
+    {
+      "id": 9,
+      "name": "Sunshine Harmony",
+      "businessName": "Harmonious Weddings",
+      "email": "sunshine@harmoniousweddings.com",
+      "password": "harmony123"
+    },
+    {
+      "id": 10,
+      "name": "Tulip Celebration",
+      "businessName": "Celebration Studios",
+      "email": "tulip@celebrationstudios.com",
+      "password": "celebrate2024"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "retailerId": 5,
+      "flowersId": 1,
+      "customersId": 1
+    },
+    {
+      "id": 2,
+      "retailerId": 3,
+      "flowersId": 4,
+      "customersId": 2
+    },
+    {
+      "id": 3,
+      "retailerId": 7,
+      "flowersId": 5,
+      "customersId": 3
+    },
+    {
+      "id": 4,
+      "retailerId": 2,
+      "flowersId": 6,
+      "customersId": 4
+    },
+    {
+      "id": 5,
+      "retailerId": 8,
+      "flowersId": 7,
+      "customersId": 5
+    }
   ]
 }
