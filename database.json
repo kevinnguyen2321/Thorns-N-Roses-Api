@@ -129,7 +129,7 @@
       "id": 9,
       "flowerId": 9,
       "nurseId": 4,
-      "price": 16.0
+      "price": 16
     },
     {
       "id": 10,
@@ -141,7 +141,7 @@
       "id": 11,
       "flowerId": 11,
       "nurseId": 6,
-      "price": 10.0
+      "price": 10
     },
     {
       "id": 12,
@@ -390,7 +390,7 @@
     {
       "id": 1,
       "name": "Gordian Knot",
-      "businessName":"The Knot",
+      "businessName": "The Knot",
       "email": "GKnot@theknot.com",
       "password": "password"
     },
@@ -456,38 +456,58 @@
       "businessName": "Celebration Studios",
       "email": "tulip@celebrationstudios.com",
       "password": "celebrate2024"
+    },
+    {
+      "email": "fake.email@email.com",
+      "name": "Billy Joe",
+      "businessName": "NSS",
+      "password": "hello1234",
+      "id": 11
+    },
+    {
+      "email": "fake.email2@email.com",
+      "name": "Billy Joe II",
+      "businessName": "NSS",
+      "password": "dsdsd",
+      "id": 12
     }
   ],
   "cart": [
     {
       "id": 1,
       "retailerId": 5,
-      "flowersId": 1,
-      "customersId": 1
+      "flowerId": 1,
+      "customerId": 1
     },
     {
       "id": 2,
       "retailerId": 3,
-      "flowersId": 4,
-      "customersId": 2
+      "flowerId": 4,
+      "customerId": 2
     },
     {
       "id": 3,
       "retailerId": 7,
-      "flowersId": 5,
-      "customersId": 3
+      "flowerId": 5,
+      "customerId": 3
     },
     {
       "id": 4,
       "retailerId": 2,
-      "flowersId": 6,
-      "customersId": 4
+      "flowerId": 6,
+      "customerId": 4
     },
     {
       "id": 5,
       "retailerId": 8,
-      "flowersId": 7,
-      "customersId": 5
+      "flowerId": 7,
+      "customerId": 5
+    },
+    {
+      "retailerId": 1,
+      "flowerId": 12,
+      "customerId": 1,
+      "id": 6
     }
   ]
 }
