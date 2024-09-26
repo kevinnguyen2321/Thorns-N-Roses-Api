@@ -472,42 +472,20 @@
       "id": 12
     }
   ],
-  "cart": [
+  "carts": [
     {
-      "id": 1,
-      "retailerId": 5,
-      "flowerId": 1,
-      "customerId": 1
-    },
-    {
-      "id": 2,
-      "retailerId": 3,
-      "flowerId": 4,
-      "customerId": 2
-    },
-    {
-      "id": 3,
-      "retailerId": 7,
-      "flowerId": 5,
-      "customerId": 3
-    },
-    {
-      "id": 4,
-      "retailerId": 2,
-      "flowerId": 6,
-      "customerId": 4
-    },
-    {
-      "id": 5,
-      "retailerId": 8,
-      "flowerId": 7,
-      "customerId": 5
+      "retailerId": 1,
+      "flowerId": 3,
+      "customerId": 1,
+      "price": "$22.30",
+      "id": 1
     },
     {
       "retailerId": 1,
       "flowerId": 12,
       "customerId": 1,
-      "id": 6
+      "price": "$18.39",
+      "id": 2
     }
   ]
 }
